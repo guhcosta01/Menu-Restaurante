@@ -48,7 +48,7 @@ b{
 }
 
 .btn-white{
-
+    
     background-color: var(--color-white);
     color: var(--color-black) !important;
     border-radius: 20px;
@@ -56,9 +56,13 @@ b{
     font-size: 20px;
     box-shadow:0px 10px 15px rgba(0, 0, 0, 0.1);
 }
+
+.btn-white:hover{
+    background-color: var(--color-primary) !important;
+}
 .btn-icon{
 
-    padding-right: 75px;
+    padding-right: 200px;
 }
 .btn-icon .icon{
     
@@ -76,7 +80,6 @@ b{
 }
 
 .color-primary{
-
         color: var(--color-primary);
 }
 
@@ -109,25 +112,58 @@ b{
     border-radius: 20px;
     padding: 15px 25px;
     font-size: 20px;
-    box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-.btn-icon-left{
-    padding-left: 70px;
+    box-shadow:  0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-.btn-icon-left  span.icon-left{
 
-    display: inline-block;
+
+
+.btn-sm{
+    padding: 9px 15px !important;
+    border-radius: 15px !important;
+    font-size: 18px !important;
+}
+.btn-white{
+    width: 50px;
+}
+
+.card-banner{
+height: 450px;
+width: 450px;
+border-radius: 170px;
+background-color: #f4c949;
+position: absolute;
+right: 0px;
+top: -80px;
+
+}
+.img-banner img{
+
     position: absolute;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border-radius: 15px;
-    padding-top: 6px;
-    margin-left: -60px;
-    margin-top: -8px;
-    text-align: center;
-    width: 45px;
-    height: 45px;
-    padding-top: 8px;
+    width: 570px;
+    top:30px;
+    right: 15px;
+}
+.card{
 
+    border-radius: 20px;
+    padding: 15px 20px;
+     font-size: 20px;
+     border: none !important;
+     box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.1);
+
+}
+.card-case{
+    width: 350px;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+}
+.card-case-name{
+    position: absolute;
+    font-size: 12px;
+    right: 20px;
+    bottom: 10px;
+    color: var(--color-primary);
 }
